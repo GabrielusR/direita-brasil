@@ -1,0 +1,84 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+    color: #fff;
+    background: #3C8D2F;
+}
+
+.primary-bg-color {
+    background: #EBD43B;
+}
+
+.secondary-bg-color {
+    background: #3c8d2f;
+}
+
+.primary-color {
+    color: #EBD43B;
+}
+
+.secondary-color {
+    color: #3C8D2F;
+}
+
+#main-navbar {
+    border-bottom: #ebd43b 3px solid;
+    padding: 20px 0;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+
+#home-section {
+    background: url("../img/planalto.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#home-section .fa,
+#economia .fa,
+#educacao .fa,
+#armas .fa {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3c8d2f;
+    font-size: 20px;
+}
+
+#economia .fa,
+#armas .fa {
+    background-color: #EBD43B;
+    color: #fff;
+}
+
+#educacao .fa {
+    background-color: #3c8d2f;
+    color: #fff;
+}
+
+.dark-overlay {
+    background: rgba(0,0,0,0.8);
+    min-height: 750px;
+}
+
+.home-inner {
+    padding-top: 150px;
+    min-height: 750px;
+}
+
+#home-section .card-form {
+    opacity: 0.85;
+    padding: 20px;
+}
+
+#contactModal {
+    overflow: hidden;
+}
+
+#main-footer {
+    padding: 100px 0;
+}
